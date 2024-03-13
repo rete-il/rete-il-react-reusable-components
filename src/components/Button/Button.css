@@ -1,0 +1,41 @@
+/* Button.css */
+.button {
+  /* Common button styling */
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.padding-2 {
+  padding: 0.5rem; /* Example padding */
+}
+
+.shadow-none {
+  box-shadow: none; /* No shadow state */
+}
+
+/* Define a generic background color class that changes on hover */
+.background-light {
+  background-color: lightblue; /* Example light color */
+}
+
+.background-dark {
+  background-color: darkblue; /* Example dark color */
+}
+
+/* Hover state styles */
+.button:hover {
+  /* This will apply to all buttons on hover */
+  opacity: 0.9; /* Slight transparency on hover */
+}
+
+.background-light:hover {
+  /* Specific hover style for light background */
+  background-color: #add8e6; /* A lighter blue - replace with your choice */
+}
+
+.background-dark:hover {
+  /* Specific hover style for dark background */
+  background-color: #00008b; /* A darker blue - replace with your choice */
+}
