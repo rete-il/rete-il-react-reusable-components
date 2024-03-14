@@ -1,3 +1,4 @@
+/* App.css - Existing Styles */
 .App {
   text-align: center;
 }
@@ -35,4 +36,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Navbar Specific Styles */
+.navbar {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #333; /* Example background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Example shadow for better visibility */
+  z-index: 1001; /* Ensures navbar is above other content */
+}
+
+/* Align items within the navbar */
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; /* Adjust based on your design */
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Alignment classes */
+.navbar-left {
+  justify-content: flex-start;
+}
+
+.navbar-center {
+  justify-content: center;
+}
+
+.navbar-right {
+  justify-content: flex-end;
 }

@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar {
+  background: #333;
+  color: white;
+  position: fixed; /* Fix the navbar at the top of the screen */
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center; /* Default to center */
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Alignment classes */
+.navbar-left {
+  justify-content: flex-start;
+}
+
+.navbar-center {
+  justify-content: center;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for logged-in state */
+.navbar-logged-in {
+  background: #555;
+}
